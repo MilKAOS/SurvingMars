@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity path="">
+	<state id="idle">
+		<mesh_ref ref="mesh"/>
+	</state>
+	<mesh_description id="mesh">
+		<src file="C:/Users/akeean/AppData/Roaming/Surviving Mars/ModAssets/FBX/mono2.fbx"/>
+		<mesh file="Monolith11_mesh.m.hgm"/>
+		<material file="Monolith11_mesh.mtl"/>
+		<bsphere value="0,0,165,199"/>
+		<box min="-19,-76,-17" max="19,76,347"/>
+		<attach name="Top" spot_pos="0,0,600" spot_scale="123"/>
+		<attach name="Workdrone" spot_pos="-300,0,0"/>
+		<surf type="collision" points="-100,-100,100;-100,100,100;100,100,100"/>
+		<surf type="collision" points="-100,-100,100;100,100,100;100,-100,100"/>
+		<surf type="hex_shape" points="-123,-100,0;-123,100,0;123,100,0"/>
+		<surf type="hex_shape" points="-123,-100,0;123,100,0;123,-100,0"/>
+		<surf type="selection" points="-19,-76,347;19,-76,-17;-19,-76,-17"/>
+		<surf type="selection" points="-19,-76,-17;-19,76,347;-19,-76,347"/>
+		<surf type="selection" points="-19,76,347;19,-76,347;-19,-76,347"/>
+		<surf type="selection" points="-19,-76,-17;19,76,-17;-19,76,-17"/>
+		<surf type="selection" points="-19,76,347;-19,-76,-17;-19,76,-17"/>
+		<surf type="selection" points="-19,76,-17;19,76,347;-19,76,347"/>
+		<surf type="selection" points="19,76,-17;-19,-76,-17;19,-76,-17"/>
+		<surf type="selection" points="19,-76,347;19,76,-17;19,-76,-17"/>
+		<surf type="selection" points="19,-76,-17;-19,-76,347;19,-76,347"/>
+		<surf type="selection" points="19,76,347;-19,76,-17;19,76,-17"/>
+		<surf type="selection" points="19,76,-17;19,-76,347;19,76,347"/>
+		<surf type="selection" points="19,-76,347;-19,76,347;19,76,347"/>
+		<surf_hash type="collision" value="3057617616"/>
+		<surf_hash type="hex_shape" value="809131587"/>
+		<surf_hash type="selection" value="2290287818"/>
+	</mesh_description>
+</entity>
