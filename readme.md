@@ -1,9 +1,9 @@
 The place where you can find the content I created around the game Surviving Mars.
 
 ## Mods:
-- The Monolith
+- **__The Monolith__**
     - contains a Breakthrough and a well-known Building
-- Name Your Colonists
+- **__Name Your Colonists__**
     - a dialog appears for every newborn colonist/clone/android to choose a different name (or to keep the old one) 
 
 #### Packaged Mods can also be found here:
